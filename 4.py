@@ -94,4 +94,4 @@ d=int(input())
 if a<=n<=a+b or a+b+c<=n<=a+c+d+b:
     print('да')
 else:
-    print('нет')
+    print('нет') 12
