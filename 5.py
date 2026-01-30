@@ -59,6 +59,7 @@ else:
     print('Скидки нет')
 '''
 #3
+'''
 a=123
 b=int(input('Введите пин-код'))
 if b==a:
@@ -69,5 +70,28 @@ if b==a:
         print('успешно')
 else:
     print('Пин-код неверный')
-
-
+'''
+#4
+'''
+x=int(input())
+y=int(input())
+if x>0 and y>0:
+    print('первая четверть')
+elif x<0 and y>0:
+    print('вторая четверть')
+elif x<0 and y<0:
+    print('третья четверть')
+elif x>0 and y<0:
+    print('четвертая четверть')
+'''
+#5
+'''
+n=int(input('синих'))
+if n<2:
+    print(0)
+else:
+    print(2*(n-1),'красных')
+'''
+#6
+a=int(input())
+b=int(input())
