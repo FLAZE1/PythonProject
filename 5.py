@@ -93,5 +93,4 @@ else:
     print(2*(n-1),'красных')
 '''
 #6
-a=int(input())
-b=int(input())
+a=int(in
