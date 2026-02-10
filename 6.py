@@ -42,6 +42,7 @@ for i in range(a):
         s=b+s
 print(s)
 '''
+from pkgutil import resolve_name
 
 #2
 
@@ -169,5 +170,98 @@ for i in range(a):
         max=b
 print(max)
 '''
+#16
+'''
+a=int(input())
+s=0
+for i in range(a):
+    b=int(input())
+    if 99>=b>9 and b<29:
+        s+=b
+print(s)
+'''
+#16
+'''
+a=int(input())
+s=0
+for i in range(a):
+    b=int(input())
+    if 99>=b>9 and b%10!=b//10:
+        s+=1
+print(s)
+'''
 
+#16
+'''
+a=int(input())
+s=0
+for i in range(a):
+    b=int(input())
+    if 99>=b>9 and b%10==b//10:
+        s+=1
+print(s)
+'''
 
+#16
+'''
+a=int(input())
+s=0
+for i in range(a):
+    b=int(input())
+    if 99>=b>9 and b%10<b//10:
+        s+=1
+print(s)
+'''
+
+#1
+'''
+a=int(input())
+maxi=0
+for i in range(a):
+    b=int(input())
+    if b%5==0 and b>maxi:
+        maxi=b
+print(maxi)
+'''
+
+#2
+'''
+a=int(input())
+s=0
+for i in range(a):
+    b=int(input())
+    if b%6==0:
+        s+=b
+print(s)
+'''
+
+#3
+'''
+a=int(input())
+s=0
+for i in range(a):
+    b=int(input())
+    if b%4==0:
+        s+=1
+print(s)
+'''
+
+#4
+'''
+a=int(input())
+mini=30001
+for i in range(a):
+    b=int(input())
+    if b%3==0 and b<mini:
+        mini=b
+print(mini)
+'''
+
+#5
+a=int(input())
+s=0
+for i in range(a):
+    b=int(input())
+    if b%10==4:
+        s+=b
+print(s)
