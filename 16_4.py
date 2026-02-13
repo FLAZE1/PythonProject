@@ -129,7 +129,7 @@ for i in range(count):
 if num_sum>0:
     print(s//num_sum)
 else:
-    print('No')
+    print('NO')
 '''
 
 #16
