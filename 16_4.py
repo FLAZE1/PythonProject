@@ -144,6 +144,7 @@ print(num_sum)
 '''
 
 #16
+'''
 count = int(input())
 num_sum = 0
 for i in range(count):
@@ -151,3 +152,14 @@ for i in range(count):
     if num % 64 == 26:
         num_sum += num
 print(num_sum)
+'''
+
+#1
+
+a = int(input())
+b = 0
+for i in range(a):
+    c = int(input())
+    if (c // 4)% 4  == 3:
+        b += c
+print(b)
