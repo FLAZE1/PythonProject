@@ -72,11 +72,54 @@ r = randint(1,6)
 # print(I)
 # print(V)
 
-L=5
-N=7084+10
+# L=5
+# N=7084+10
+# i=ceil(log2(N))
+# I=ceil(L * i /8)
+# n=22528
+# V=(I*n)/(2**10)
+# print(I)
+# print(print(V))
+
+# a=int(input())
+# s=0
+# for i in range(a):
+#     b=int(input())
+#     if (b // 3) % 3 == 1:
+#         s += b
+# print(s)
+
+# N=8
+# n=20
+# L=15
+# i=ceil(log2(N))
+# I=ceil(L * i /8)
+# V=I*n
+# print(I)
+# print(V)
+
+# N=4090+10
+# i=ceil(log2(N))
+# L=101
+# I=ceil(L * i /8)
+# V=I*n
+# print(I)
+# print(V)
+
+# N=1700+10
+# L=252
+# n=4096
+# i=ceil(log2(N))
+# I=ceil(L * i /8)
+# V=(I*n)/(2**10)
+# print(I)
+# print(V)
+
+N=26
+L=25
+M=35
 i=ceil(log2(N))
-I=ceil(L * i /8)
-n=22528
-V=(I*n)/(2**10)
+I=ceil(i*L/8)
 print(I)
+V=I*M
 print(V)
