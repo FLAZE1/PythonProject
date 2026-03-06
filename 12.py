@@ -115,11 +115,11 @@ r = randint(1,6)
 # print(I)
 # print(V)
 
-N=26
-L=25
-M=35
-i=ceil(log2(N))
-I=ceil(i*L/8)
-print(I)
-V=I*M
-print(V)
+# N=26
+# L=25
+# M=35
+# i=ceil(log2(N))
+# I=ceil(i*L/8)
+# print(I)
+# V=I*M
+# print(V)
