@@ -123,3 +123,11 @@ r = randint(1,6)
 # print(I)
 # V=I*M
 # print(V)
+
+n=int(input())
+s=0
+for i in range(n):
+    a=int(input())
+    if (a // 3)%3 == 1:
+        s +=a
+print(s)
