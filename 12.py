@@ -124,10 +124,18 @@ r = randint(1,6)
 # V=I*M
 # print(V)
 
-n=int(input())
-s=0
-for i in range(n):
-    a=int(input())
-    if (a // 3)%3 == 1:
-        s +=a
-print(s)
+# n=int(input())
+# s=0
+# for i in range(n):
+#     a=int(input())
+#     if (a // 3)%3 == 1:
+#         s +=a
+# print(s)
+
+# n=int(input())
+# s=0
+# for i in range(n):
+#     a=int(input())
+#     if a%10==4:
+#         s=s+a
+# print(s)
