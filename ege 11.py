@@ -27,11 +27,19 @@ from math import *
 # print(I)
 # print(L)
 
-N=7094
-i=ceil(log2(N))
-L=5
-n=22528
-I=ceil(L*i /8)
-V=n*I /1024
-print(I)
-print(V)
+# N=7094
+# i=ceil(log2(N))
+# L=5
+# n=22528
+# I=ceil(L*i /8)
+# V=n*I /1024
+# print(I)
+# print(V)
+
+# L=1000
+# N=2040+10
+# i=ceil(log2(N))
+# n=2**20
+# I=(L*i)/8
+# V=(I*n)/1024/1024
+# print(V)
