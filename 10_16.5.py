@@ -127,17 +127,17 @@ while n > 0:
 print(maxi)
 '''
 
-s=0
-a=0
-n=int(input())
-for i in range(n):
-    b=int(input())
-    s+=b
-    if b > 0:
-        a +=1
-print(s/n)
-
-if a >= 5:
-    print('YES')
-else:
-    print('NO')
+# s=0
+# a=0
+# n=int(input())
+# for i in range(n):
+#     b=int(input())
+#     s+=b
+#     if b > 0:
+#         a +=1
+# print(s/n)
+#
+# if a >= 5:
+#     print('YES')
+# else:
+#     print('NO')
