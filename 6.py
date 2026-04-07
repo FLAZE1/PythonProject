@@ -258,10 +258,18 @@ print(mini)
 '''
 
 #5
+# a=int(input())
+# s=0
+# for i in range(a):
+#     b=int(input())
+#     if b%10==4:
+#         s+=b
+# print
+
 a=int(input())
 s=0
 for i in range(a):
     b=int(input())
-    if b%10==4:
+    if b%2==0 and b<30:
         s+=b
 print(s)
