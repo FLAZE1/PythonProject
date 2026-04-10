@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f099cf1-40f5-4e6d-8b2b-9a86abc6b639" name="Changes" comment="smth new">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/30ge.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/turtlea.py" beforeDir="false" afterPath="$PROJECT_DIR$/turtlea.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10.py" beforeDir="false" afterPath="$PROJECT_DIR$/10.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,11 +47,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.10.executor": "Run",
     "Python.10_16.5.executor": "Run",
     "Python.11_1.executor": "Run",
     "Python.12.executor": "Run",
     "Python.16_4.executor": "Run",
     "Python.3.executor": "Run",
+    "Python.30ge.executor": "Run",
     "Python.4.executor": "Run",
     "Python.5.executor": "Run",
     "Python.6.executor": "Run",
