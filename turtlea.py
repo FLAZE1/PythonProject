@@ -244,39 +244,70 @@ from turtle import*
 
 
 
+# m=10
+# tracer(False)
+# screensize(5000,5000)
+# left(90)
+#
+# for i in range(2):
+#     forward(23*m)
+#     left(90)
+#     back(27*m)
+#     left(90)
+#
+# up()
+#
+# back(5*m)
+# right(90)
+# forward(11*m)
+# left(90)
+#
+# down()
+#
+# for i in range(2):
+#     forward(26*m)
+#     right(90)
+#     forward(32*m)
+#     right(90)
+# up()
+#
+# for x in range(11,28):
+#     for y in range(0,22):
+#         goto(x*m,y*m)
+#         dot(3,'red')
+#
+# print(24*28+27*33-17*22)
+#
+#
+# update()
+# done()
+
 m=10
 tracer(False)
 screensize(5000,5000)
 left(90)
-
-for i in range(2):
-    forward(23*m)
-    left(90)
-    back(27*m)
-    left(90)
+right(45)
+for i in range(10):
+    right(45)
+    forward(203*m)
+    right(45)
 
 up()
 
-back(5*m)
-right(90)
-forward(11*m)
-left(90)
+back(40*m)
+right(45)
 
 down()
 
-for i in range(2):
-    forward(26*m)
-    right(90)
-    forward(32*m)
-    right(90)
+for i in range(5):
+    forward(20*m)
+    left(90)
 up()
 
-for x in range(11,28):
-    for y in range(0,22):
+for x in range(0,250):
+    for y in range(-203,1):
         goto(x*m,y*m)
         dot(3,'red')
-
-print(24*28+27*33-17*22)
 
 
 update()
