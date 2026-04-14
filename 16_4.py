@@ -144,10 +144,21 @@ print(num_sum)
 '''
 
 #16
-count = int(input())
-num_sum = 0
-for i in range(count):
-    num = int(input())
-    if num % 64 == 26:
-        num_sum += num
-print(num_sum)
+# count = int(input())
+# num_sum = 0
+# for i in range(count):
+#     num = int(input())
+#     if num % 64 == 26:
+#         num_sum += num
+# print(num_sum)
+
+
+# n=int(input())
+#
+# s=0
+#
+# for i in range(n):
+#     b=int(input())
+#     if b%10==3:
+#         s+=1
+# print(s)

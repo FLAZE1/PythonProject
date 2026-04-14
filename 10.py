@@ -109,7 +109,8 @@
 # print(bin(86))
 # print(bin(105))
 
-num = int("11111011",2)
-num1 = int("1101",8)
-num2 = int("101",16)
-print(num+num1+num2)
+# num = int("11111011",2)
+# num1 = int("1101",8)
+# num2 = int("101",16)
+# print(num+num1+num2)
+
