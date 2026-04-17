@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f099cf1-40f5-4e6d-8b2b-9a86abc6b639" name="Changes" comment="smth new">
+      <change beforePath="$PROJECT_DIR$/.idea/PythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/11_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/16_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/30ge.py" beforeDir="false" afterPath="$PROJECT_DIR$/30ge.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/turtlea.py" beforeDir="false" afterPath="$PROJECT_DIR$/turtlea.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,12 +34,12 @@
     &quot;assignee&quot;: &quot;FLAZE1&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/FLAZE1/PythonProject.git",
-    "accountId": "438495e5-e9f9-4e57-af4d-53c9200d3429"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/FLAZE1/PythonProject.git&quot;,
+    &quot;accountId&quot;: &quot;438495e5-e9f9-4e57-af4d-53c9200d3429&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>

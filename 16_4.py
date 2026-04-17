@@ -162,3 +162,13 @@ print(num_sum)
 #     if b%10==3:
 #         s+=1
 # print(s)
+
+n=int(input())
+
+s=0
+
+for i in range(n):
+    b=int(input())
+    if b%10==4 and b%6==0:
+        s+=1
+print(s)

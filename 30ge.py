@@ -38,4 +38,3 @@ for x in range(1000):
     f = ((x > 65) and (x < 80) and (x%2==0))
     if f == False:
         print(x)
-        1
