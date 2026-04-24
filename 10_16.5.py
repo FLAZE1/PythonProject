@@ -150,3 +150,18 @@ print(maxi)
 #     n = int(input())
 # print(s)
 
+s=0
+a=30000
+while True:
+    n=int(input())
+    if n == 0:
+        break
+
+    if n>s:
+        s=n
+        s+=n
+    elif n<a:
+        a=n
+        a+=n
+print(s)
+print(a)
