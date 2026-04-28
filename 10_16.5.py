@@ -141,3 +141,27 @@ print(maxi)
 #     print('YES')
 # else:
 #     print('NO')
+
+# s=0
+# n = int(input())
+# while n!=0:
+#     if n%4==0 and n % 10 == 6:
+#         s += n
+#     n = int(input())
+# print(s)
+
+s=0
+a=30000
+while True:
+    n=int(input())
+    if n == 0:
+        break
+
+    if n>s:
+        s=n
+        s+=n
+    elif n<a:
+        a=n
+        a+=n
+print(s)
+print(a)

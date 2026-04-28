@@ -163,23 +163,12 @@ print(num_sum)
 #         s+=1
 # print(s)
 
-# n=int(input())
-#
-# s=0
-#
-# for i in range(n):
-#     b=int(input())
-#     if b%10==3:
-#         s+=1
-# print(s)
+n=int(input())
 
-a=int(input())
 s=0
-for i in range(a):
+
+for i in range(n):
     b=int(input())
-    if b % 7 == 6:
-        s+=b
-if s==0:
-    print('NO')
-else:
-    print(s)
+    if b%10==4 and b%6==0:
+        s+=1
+print(s)
