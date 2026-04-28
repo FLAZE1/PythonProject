@@ -34,8 +34,14 @@
 # Напишите наименьшее натуральное число X, для которого ложно высказывание:
 # ((x > 65) И (x < 80)) И (x чётный)
 
-for x in range(1000):
-    f = ((x > 65) and (x < 80) and (x%2==0))
-    if f == False:
-        print(x)
-        1
+# for x in range(1000):
+#     f = ((x > 65) and (x < 80) and (x%2==0))
+#     if f == False:
+#         print(x)
+#         1
+# i=0
+# for x in range(10,100):
+#     f = not(x%2==0) and not(x > 39)
+#     if f == False:
+#         i+=1
+# print(i)
