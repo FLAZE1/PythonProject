@@ -166,11 +166,20 @@ print(maxi)
 # print(s)
 # print(a)
 
+# s=0
+# maxi=0
+# n=int(input())
+# for i in range(n):
+#     b=int(input())
+#     if b%5==0 and b>maxi:
+#         maxi=b
+# print(maxi)
+
 s=0
-maxi=0
-n=int(input())
-for i in range(n):
+a=1
+while a !=0:
     b=int(input())
-    if b%5==0 and b>maxi:
-        maxi=b
-print(maxi)
+    if b%6==0 and b%10==4:
+        s+=b
+    a=int(input())
+print(s)
