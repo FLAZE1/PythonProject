@@ -175,11 +175,10 @@ print(maxi)
 #         maxi=b
 # print(maxi)
 
-s=0
-a=1
-while a !=0:
-    b=int(input())
-    if b%6==0 and b%10==4:
-        s+=b
-    a=int(input())
-print(s)
+# s=0
+# a=1
+# while a !=0:
+#     a=int(input())
+#     if a%16==12 and a>256 and a<4096:
+#         s+=1
+# print(s)
