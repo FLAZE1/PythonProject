@@ -163,12 +163,84 @@ print(num_sum)
 #         s+=1
 # print(s)
 
-n=int(input())
+# n=int(input())
+#
+# s=0
+#
+# for i in range(n):
+#     b=int(input())
+#     if b%10==4 and b%6==0:
+#         s+=1
+# print(s)
 
+
+# n=int(input())
+#
+# maxi=0
+# mini=30000
+# for i in range(n):
+#     b=int(input())
+#     if b>maxi:
+#         maxi=b
+#     if b<mini:
+#         mini=b
+# if mini<30:
+#     print(maxi)
+#     print('YES')
+# else:
+#     print(maxi)
+#     print('NO')
+
+#1
+# n=int(input())
+#
+# s=0
+# b=0
+#
+# for i in range(n):
+#     a=int(input())
+#     if a>=8:
+#         s+=1
+#         b+=a
+# print(s)
+# print(b/s)
+
+#2
+
+# a=1
+# s=0
+# f=0
+#
+# while a!=0:
+#     a=int(input())
+#     if a % 10 ==1:
+#         s+=a
+#         f+=1
+# if f>0:
+#     print(s/f)
+# else:
+#     print('NO')
+
+#3
+
+
+# s=0
+#
+# while True:
+#     a=int(input())
+#     if a==0:
+#         break
+#     if a % 4 == 0 and a % 10 == 0:
+#         s+=1
+# print(s)
+
+#4
+
+a=int(input())
+b=int(input())
 s=0
 
-for i in range(n):
-    b=int(input())
-    if b%10==4 and b%6==0:
+for i in range(a,b+1):
+    if i % 2 == 0:
         s+=1
 print(s)
