@@ -51,14 +51,29 @@
 # print(s)
 
 
-num = int(input())
-l = []
-w=0
-for i in range(4):
-    s=int(input())
-    if s<=30:
-        l.append(s)
+# num = int(input())
+# l = []
+# w=0
+# for i in range(4):
+#     s=int(input())
+#     if s<=30:
+#         l.append(s)
+#
+# l.sort()
+# print(l[0])
+# print(l[-1])
 
-l.sort()
-print(l[0])
-print(l[-1])
+# n = int(input())
+#
+# s=0
+#
+# l=18*60+30
+#
+# for i in range(n):
+#     m=int(input()).split()
+#     r=m*60+m
+#     if r <= l:
+#         s+=1
+# print(s)
+s=input().split()
+print(int(s[0]),int(s[1]))

@@ -235,12 +235,33 @@ print(num_sum)
 # print(s)
 
 #4
+#
+# a=int(input())
+# b=int(input())
+# s=0
+#
+# for i in range(a,b+1):
+#     if i % 2 == 0:
+#         s+=1
+# print(s)
 
-a=int(input())
-b=int(input())
-s=0
 
-for i in range(a,b+1):
-    if i % 2 == 0:
-        s+=1
-print(s)
+# a=int(input())
+#
+# maxi=0
+#
+# for i in range(a):
+#     b=int(input())
+#     if b%10==3 and b>maxi:
+#         maxi=b
+# print(maxi)
+
+# a=int(input())
+#
+# mini=30000
+#
+# for i in range(a):
+#     b=int(input())
+#     if b%3==0 and b<mini:
+#         mini=b
+# print(mini)
