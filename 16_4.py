@@ -265,3 +265,13 @@ print(num_sum)
 #     if b%3==0 and b<mini:
 #         mini=b
 # print(mini)
+
+s=0
+
+while True:
+    a=int(input())
+    if a==0:
+        break
+    if a % 4 == 0 or a % 9 == 0:
+        s+=a
+print(s)
