@@ -182,3 +182,61 @@ print(maxi)
 #     if a%16==12 and a>256 and a<4096:
 #         s+=1
 # print(s)
+#
+# s=0
+#
+# n=int(input())
+# for i in range(n):
+#     b=int(input())
+#     if (b//8)%8==3:
+#         s+=b
+# print(s)
+
+
+# s=0
+#
+# n=int(input())
+# for i in range(n):
+#     b=int(input())
+#     if b%5==3:
+#         s+=b
+# print(s)
+
+# s=0
+#
+# n=int(input())
+# for i in range(n):
+#     b=int(input())
+#     if b%3==1 and b//3%3==2 and b//9%3==1:
+#         s+=b
+# print(s)
+
+
+# s=0
+#
+# n=int(input())
+# for i in range(n):
+#     b=int(input())
+#     if (b//7)%7==2:
+#         s+=b
+# print(s)
+
+# s=0
+#
+# n=int(input())
+# for i in range(n):
+#     b=int(input())
+#     if b%7==1 and b//7%7==2:
+#         s+=b
+# print(s)
+
+
+n = int(input())
+s=0
+l=18 * 60 + 30
+for i in range(n):
+    m = input().split()
+    r = int(m[0]) * 60 + int(m[1])
+    if r <= l:
+        s += 1
+print(s)

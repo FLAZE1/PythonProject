@@ -114,7 +114,5 @@
 # num2 = int("101",16)
 # print(num+num1+num2)
 
-# num = int("1010110",2)
-# print(num)
-
-print(bin(87))
+num = int("10000010",2)
+print(num)
