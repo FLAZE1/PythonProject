@@ -231,12 +231,22 @@ print(maxi)
 # print(s)
 
 
-n = int(input())
+# n = int(input())
+# s=0
+# l=18 * 60 + 30
+# for i in range(n):
+#     m = input().split()
+#     r = int(m[0]) * 60 + int(m[1])
+#     if r <= l:
+#         s += 1
+# print(s)
+
+
 s=0
-l=18 * 60 + 30
+
+n=int(input())
 for i in range(n):
-    m = input().split()
-    r = int(m[0]) * 60 + int(m[1])
-    if r <= l:
-        s += 1
+    b=int(input())
+    if b//3%3==1:
+        s+=b
 print(s)
