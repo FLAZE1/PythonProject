@@ -247,6 +247,6 @@ s=0
 n=int(input())
 for i in range(n):
     b=int(input())
-    if b//3%3==1:
+    if b//4%4==3:
         s+=b
 print(s)
