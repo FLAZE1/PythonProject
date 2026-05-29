@@ -242,11 +242,32 @@ print(maxi)
 # print(s)
 
 
+# s=0
+#
+# n=int(input())
+# for i in range(n):
+#     b=int(input())
+#     if b//4%4==3:
+#         s+=b
+# print(s)
+
+# s=0
+#
+# n=int(input())
+# for i in range(n):
+#     b=int(input())
+#     if b%4==0:
+#         s+=1
+# print(s)
+
 s=0
 
 n=int(input())
 for i in range(n):
     b=int(input())
-    if b//4%4==3:
-        s+=b
-print(s)
+    if b%7==2:
+        s+=1
+if s==0:
+    print('No')
+else:
+    print(s)
