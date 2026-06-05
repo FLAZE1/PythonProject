@@ -260,14 +260,23 @@ print(maxi)
 #         s+=1
 # print(s)
 
+# s=0
+#
+# n=int(input())
+# for i in range(n):
+#     b=int(input())
+#     if b%7==2:
+#         s+=1
+# if s==0:
+#     print('No')
+# else:
+#     print(s)
+
 s=0
 
 n=int(input())
 for i in range(n):
     b=int(input())
-    if b%7==2:
-        s+=1
-if s==0:
-    print('No')
-else:
-    print(s)
+    if b%2==0 and b<30:
+        s+=b
+print(s)
